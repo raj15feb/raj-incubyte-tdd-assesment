@@ -11,4 +11,10 @@ def test_add_single_string():
     expected = 1
     total = add(input_str)
     assert expected == total
+
+def test_add_with_single_separator():
+    input_str = "1,2"
+    expected = 3
+    total = add(input_str)
+    assert expected == total
     
